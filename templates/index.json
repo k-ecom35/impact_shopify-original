@@ -814,7 +814,7 @@
         "item_gMFiTj"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "subheading": "",
         "title": "FAQ Luméa - Tout savoir",
         "content": "",
@@ -823,7 +823,7 @@
         "answer_time": "",
         "button_text": "",
         "button_url": "",
-        "text_position": "start",
+        "text_position": "center",
         "background": "#f8f4ed",
         "background_gradient": "",
         "text_color": "",
