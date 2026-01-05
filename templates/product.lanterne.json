@@ -144,9 +144,71 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "faq_4Ximhi": {
+      "type": "faq",
+      "blocks": {
+        "item_AR49qA": {
+          "type": "item",
+          "settings": {
+            "title": "Quand ma commande sera-t-elle expédiée ?",
+            "content": "<p>Les commandes sont expédiées dans les <strong>2 à 3 </strong>jours ouvrables suivant la confirmation de la commande.<br/><br/>Une fois votre colis expédié, vous recevrez un numéro de suivi par mail.</p>"
+          }
+        },
+        "item_Aiaph3": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je retourner un article s'il ne me convient pas ?",
+            "content": "<p>Oui, vous avez 30 jours pour demander un retour.</p>"
+          }
+        },
+        "item_4UF3Xb": {
+          "type": "item",
+          "settings": {
+            "title": "Que se passe-t-il si l'article ne répond pas à mes attentes ?",
+            "content": "<p>Si vous n'êtes pas satisfait, vous pouvez retourner l'article dans les <strong>30 jours</strong>.<br/><br/>Il vous suffit de nous contacter et nous vous guiderons dans la procédure de retour.</p>"
+          }
+        },
+        "item_MLAw3d": {
+          "type": "item",
+          "settings": {
+            "title": "Comment puis-je vous contacter pour obtenir de l'aide ?",
+            "content": "<p>Vous pouvez nous contacter par courrier électronique à l'adresse lumea75006@gmail.com </p><p>Nous vous répondrons dans les <strong>24 à 48 heures ouvrables.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_AR49qA",
+        "item_Aiaph3",
+        "item_4UF3Xb",
+        "item_MLAw3d"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ Luméa - Tout savoir",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "faq_4Ximhi"
   ]
 }
