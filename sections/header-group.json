@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header group",
@@ -5,22 +14,34 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_MKC9AD": {
+          "type": "message",
+          "settings": {
+            "text": "Satisfait ou remboursé",
+            "url": ""
+          }
+        },
         "message": {
           "type": "message",
           "settings": {
-            "text": "Announce something here"
+            "text": "Livraison gratuite en France",
+            "url": ""
           }
         }
       },
       "block_order": [
+        "message_MKC9AD",
         "message"
       ],
       "settings": {
         "enable_sticky": false,
+        "autoplay": false,
+        "cycle_speed": 6,
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#1a1a1a",
+        "background": "#333333",
+        "background_gradient": "",
         "text_color": "#ffffff"
       }
     },
@@ -29,17 +50,21 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "{{shop.brand.logo}}",
-        "logo_max_width": 120,
+        "logo": "shopify://shop_images/ChatGPT_Image_5_janv._2026__16_39_54-removebg-preview.png",
+        "logo_max_width": 225,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
+        "sidebar_menu": "",
+        "secondary_menu": "",
         "menu_open_trigger": "click",
         "opening_from": "bottom",
         "layout": "logo_left_navigation_center",
         "show_social_media": true,
+        "show_locale_selector": true,
+        "show_country_selector": true,
         "show_country_flag": true,
         "show_country_name": false,
-        "transparent_header_text_color": "#ffffff",
+        "transparent_header_text_color": "#f8f4ed",
         "reduce_padding": false,
         "background_opacity": 100,
         "background_blur_radius": 0
