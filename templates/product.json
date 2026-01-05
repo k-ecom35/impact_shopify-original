@@ -82,6 +82,14 @@
             "payment_button_text_color": ""
           }
         },
+        "image_Gixm6b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2026-01-05_a_21.49.12.png",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
         "text_tc8LBr": {
           "type": "text",
           "settings": {
@@ -115,6 +123,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "image_Gixm6b",
         "text_tc8LBr",
         "image_BctXRN",
         "text_gjWa7p"
