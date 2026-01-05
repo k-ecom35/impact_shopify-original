@@ -36,13 +36,13 @@
       "settings": {
         "enable_sticky": false,
         "autoplay": false,
-        "cycle_speed": 6,
+        "cycle_speed": 14,
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
-        "scrolling_speed": 10,
-        "background": "#333333",
+        "scrolling_speed": 26,
+        "background": "#f8f4ed",
         "background_gradient": "",
-        "text_color": "#ffffff"
+        "text_color": "#333333"
       }
     },
     "header": {
@@ -58,7 +58,7 @@
         "secondary_menu": "",
         "menu_open_trigger": "click",
         "opening_from": "bottom",
-        "layout": "logo_left_navigation_center",
+        "layout": "logo_center_navigation_inline",
         "show_social_media": true,
         "show_locale_selector": true,
         "show_country_selector": true,

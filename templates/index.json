@@ -207,22 +207,6 @@
         "heading_gradient": ""
       }
     },
-    "scrolling-text": {
-      "type": "scrolling-text",
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "text": "Promotion text",
-        "text_size": "large",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 5,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
-      }
-    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -322,14 +306,30 @@
         "product_card_text_color": ""
       }
     },
+    "scrolling-text": {
+      "type": "scrolling-text",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "text": "jjjjj",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
     "impact-text": {
       "type": "impact-text",
       "blocks": {
         "1664424181b38582d5-0": {
           "type": "item",
           "settings": {
-            "title": "100%",
-            "subheading": "Showcase a benefit of your product",
+            "title": "",
+            "subheading": "Livraison offerte en France et satisfait ou remboursé.",
             "content": "",
             "button_text": "",
             "button_url": "",
@@ -341,14 +341,13 @@
       "block_order": [
         "1664424181b38582d5-0"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_mobile": true,
         "text_alignment": "center",
         "impact_text_style": "fill",
         "text_divider": "none",
-        "impact_text_size_ratio": 1,
+        "impact_text_size_ratio": 0.7,
         "background": "",
         "background_gradient": "",
         "heading_text_color": "",
@@ -356,48 +355,6 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
-      }
-    },
-    "image-with-text-overlay": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "1664424230c4756b0e-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "1664424230c4756b0e-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
-          }
-        },
-        "1664424230c4756b0e-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "1664424230c4756b0e-0",
-        "1664424230c4756b0e-1",
-        "1664424230c4756b0e-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/Schermafbeelding_2025-10-10_om_22.13.59_360x_10a1684d-7e57-4a36-9b0c-f49f1de57363.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
       }
     },
     "media-grid": {
@@ -506,6 +463,41 @@
         "mobile_row_height": 150,
         "background": "",
         "background_gradient": ""
+      }
+    },
+    "image-with-text-overlay": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "1664424230c4756b0e-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Une lanterne éclaire. Trois lanternes transforment l’atmosphère",
+            "heading_tag": "h3"
+          }
+        },
+        "1664424230c4756b0e-2": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "1664424230c4756b0e-1",
+        "1664424230c4756b0e-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/image_generee_par_IA_1_007d3701-48d6-458b-ae9a-ed34bf4dd19c.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "before-after-image": {
@@ -618,11 +610,12 @@
         "1664424434f5b7d0e0-1",
         "1664424434f5b7d0e0-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify://shop_images/4abd766e-e084-4b85-a8a8-7f9dae444fb6.png",
+        "image": "shopify://shop_images/image_generee_par_IA_1_007d3701-48d6-458b-ae9a-ed34bf4dd19c.png",
         "title": "",
-        "content": "",
+        "content": "<h1>Une lanterne éclaire. Trois lanternes transforment l’atmosphère</h1>",
         "button_text": "",
         "button_url": "",
         "desktop_text_position": "place-self-start text-start",
@@ -630,7 +623,7 @@
         "image_background_gradient": "",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
-        "overlay_text_color": "#ffffff",
+        "overlay_text_color": "#f8f4ed",
         "overlay_button_background": "",
         "overlay_button_text_color": "",
         "hot_spot_dot_background": "#ffffff",
@@ -846,12 +839,12 @@
   "order": [
     "slideshow",
     "image-link-blocks",
-    "scrolling-text",
     "collection-list",
     "featured-collection",
+    "scrolling-text",
     "impact-text",
-    "image-with-text-overlay",
     "media-grid",
+    "image-with-text-overlay",
     "before-after-image",
     "press",
     "hot-spots",
