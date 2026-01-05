@@ -17,7 +17,7 @@
           "settings": {
             "image": "shopify://shop_images/4abd766e-e084-4b85-a8a8-7f9dae444fb6.png",
             "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
+            "mobile_text_position": "place-self-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "",
             "title": "Illuminez votre jardin sans installation ni contrainte.",
@@ -79,6 +79,46 @@
         "1664424046b00c932c-0": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/photo_rogner_4.png",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_wRnXjp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2025-10-23_a_15.20.24.png",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_XETMjf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2025-10-23_a_15.20.06.png",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_Whphee": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2025-10-23_a_15.19.53.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -90,6 +130,7 @@
         },
         "1664424046b00c932c-1": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "stretch_image": true,
             "link_text": "",
@@ -102,6 +143,7 @@
         },
         "1664424046b00c932c-2": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "stretch_image": true,
             "link_text": "",
@@ -114,6 +156,7 @@
         },
         "1664424046b00c932c-3": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "stretch_image": true,
             "link_text": "",
@@ -126,6 +169,7 @@
         },
         "e4a0ef18-1856-4ddd-83d8-871a60d7acac": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "stretch_image": true,
             "link_text": "",
@@ -139,11 +183,15 @@
       },
       "block_order": [
         "1664424046b00c932c-0",
+        "item_wRnXjp",
+        "item_XETMjf",
+        "item_Whphee",
         "1664424046b00c932c-1",
         "1664424046b00c932c-2",
         "1664424046b00c932c-3",
         "e4a0ef18-1856-4ddd-83d8-871a60d7acac"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "block_size": "medium",
@@ -161,6 +209,7 @@
     },
     "scrolling-text": {
       "type": "scrolling-text",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "text": "Promotion text",
@@ -179,8 +228,10 @@
       "blocks": {
         "collection-1": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/image_generee_par_IA_1.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -193,6 +244,7 @@
         },
         "collection-2": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "",
             "subheading": "",
@@ -207,6 +259,7 @@
         },
         "collection-3": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "",
             "subheading": "",
@@ -225,6 +278,7 @@
         "collection-2",
         "collection-3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_collections": false,
@@ -246,20 +300,20 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "",
+        "collection": "frontpage",
         "products": [],
-        "full_width": true,
+        "full_width": false,
         "stack_products": false,
         "show_progress_bar": false,
-        "products_count": 6,
+        "products_count": 2,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "Featured collection",
+        "title": "Nos meilleurs produits",
         "content": "",
         "link_url": "",
-        "link_text": "View all",
-        "background": "",
+        "link_text": "",
+        "background": "#f8f4ed",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
