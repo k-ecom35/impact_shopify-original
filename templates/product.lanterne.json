@@ -108,6 +108,14 @@
           "settings": {
             "text": "<p> <strong>Pourquoi tout le monde veut Luméa™ :</strong></p><ul><li><strong>Lueur chaude et réaliste</strong> – crée une atmosphère instantanée, sans flamme ni électricité.</li><li><strong>100 % solaire</strong> – se recharge toute seule et s’allume dès la nuit tombée.</li><li><strong>Résistante & durable</strong> – conçue pour résister à la pluie, au vent et au froid.</li><li><strong>Design polyvalent</strong> – suspendue ou posée, elle s’adapte à toutes les ambiances extérieures.</li><li><strong>Éco-énergétique & sans entretien</strong> – de la lumière chaque soir, sans effort.</li></ul><p>📦 <strong>Contenu du colis :</strong></p><ul><li>1× Lanterne solaire Flamméa™</li><li>1× Crochet de suspension avec corde solide</li><li>1× Manuel d’utilisation</li><li>1× Câble USB-C</li></ul><p>✨ <strong>Apportez lumière, chaleur et charme à votre jardin, maintenant que les jours raccourcissent.</strong><br/>⚡ <strong>Commandez dès aujourd’hui – les stocks sont limités !</strong></p>"
           }
+        },
+        "image_Dq8XAx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2026-01-05_a_21.07.05-removebg-preview.png",
+            "alignment": "start",
+            "max_width": 150
+          }
         }
       },
       "block_order": [
@@ -125,7 +133,8 @@
         "inventory_kMN6c3",
         "text_YdgbFV",
         "image_yq4j8B",
-        "text_NcFRmB"
+        "text_NcFRmB",
+        "image_Dq8XAx"
       ],
       "settings": {
         "full_width": true,
@@ -147,6 +156,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "recommendations_count": 6,
         "products": [],
