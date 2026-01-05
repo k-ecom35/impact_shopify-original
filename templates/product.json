@@ -95,6 +95,12 @@
             "alignment": "center",
             "max_width": 150
           }
+        },
+        "text_gjWa7p": {
+          "type": "text",
+          "settings": {
+            "text": "<p>📦 <strong>Contenu du colis :</strong></p><ul><li>1× Lanterne solaire Flamméa™</li><li>1× Crochet de suspension avec corde solide</li><li>1× Manuel d’utilisation</li><li>1× Câble USB-C</li></ul>"
+          }
         }
       },
       "block_order": [
@@ -110,7 +116,8 @@
         "quantity_selector",
         "buy_buttons",
         "text_tc8LBr",
-        "image_BctXRN"
+        "image_BctXRN",
+        "text_gjWa7p"
       ],
       "settings": {
         "full_width": true,
