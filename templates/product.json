@@ -81,6 +81,12 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "text_tc8LBr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>✨ <strong>Pourquoi tout le monde veut la Flamméa™ :</strong></p><ul><li><strong>Lueur chaude et réaliste</strong> – crée une atmosphère instantanée, sans flamme ni électricité.</li><li><strong>100 % solaire</strong> – se recharge toute seule et s’allume dès la nuit tombée.</li><li><strong>Résistante & durable</strong> – conçue pour résister à la pluie, au vent et au froid.</li><li><strong>Design polyvalent</strong> – suspendue ou posée, elle s’adapte à toutes les ambiances extérieures.</li><li><strong>Éco-énergétique & sans entretien</strong> – de la lumière chaque soir, sans effort.</li></ul>"
+          }
         }
       },
       "block_order": [
@@ -94,7 +100,8 @@
         "description",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "text_tc8LBr"
       ],
       "settings": {
         "full_width": true,
