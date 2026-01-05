@@ -471,6 +471,7 @@
         },
         "29246d34-c6e0-4373-84f6-b15e57736a00": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/image_generee_par_IA_1.png",
             "title": "",
@@ -822,11 +823,11 @@
       "settings": {
         "full_width": false,
         "subheading": "",
-        "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "title": "FAQ Luméa - Tout savoir",
+        "content": "",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
+        "support_hours": "",
+        "answer_time": "",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
