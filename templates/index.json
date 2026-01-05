@@ -403,7 +403,8 @@
         "item-1": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "image": "shopify://shop_images/Capture_d_ecran_2025-10-23_a_15.20.24.png",
+            "title": "",
             "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
@@ -424,7 +425,8 @@
         "item-2": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "image": "shopify://shop_images/Capture_d_ecran_2025-10-23_a_15.20.06.png",
+            "title": "",
             "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
@@ -445,7 +447,8 @@
         "item-3": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "image": "shopify://shop_images/ezgif-4f3ece972f86d5.gif",
+            "title": "",
             "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
@@ -466,7 +469,8 @@
         "29246d34-c6e0-4373-84f6-b15e57736a00": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "image": "shopify://shop_images/image_generee_par_IA_1.png",
+            "title": "",
             "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
@@ -505,13 +509,15 @@
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "Before/after",
-        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
+        "title": "Avant / Après",
+        "content": "<p>Transformer votre terrasse en quelques secondes</p>",
+        "before_image": "shopify://shop_images/Capture_d_ecran_2025-10-29_a_10.27.09.png",
+        "after_image": "shopify://shop_images/Capture_d_ecran_2025-10-29_a_10.27.19.png",
         "expand_image": false,
         "text_position": "center",
         "before_after_text_position": "bottom",
-        "before_text": "Before",
-        "after_text": "After",
+        "before_text": "Avant",
+        "after_text": "Après",
         "drag_initial_position": 50,
         "background": "",
         "background_gradient": "",
