@@ -556,6 +556,7 @@
         "16644243327ba53d2a-0",
         "16644243327ba53d2a-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_size": "medium",
@@ -579,8 +580,8 @@
             "horizontal_position_mobile": 24,
             "vertical_position_mobile": 70,
             "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.</p>"
+            "title": "Jusqu'au bout de la nuit",
+            "content": "<p>12 heures d'autonomie solaire</p>"
           }
         },
         "1664424434f5b7d0e0-1": {
@@ -590,9 +591,9 @@
             "vertical_position": 14,
             "horizontal_position_mobile": 62,
             "vertical_position_mobile": 14,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.</p>"
+            "icon_width": 24,
+            "title": "Étenchéité IP65",
+            "content": "<p>Pluie, vent, poussière</p>"
           }
         },
         "1664424434f5b7d0e0-2": {
@@ -603,8 +604,8 @@
             "horizontal_position_mobile": 83,
             "vertical_position_mobile": 75,
             "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.</p>"
+            "title": "Allumage automatique",
+            "content": "<p>Du crépuscule à l'aube </p>"
           }
         }
       },
@@ -615,6 +616,7 @@
       ],
       "settings": {
         "full_width": true,
+        "image": "shopify://shop_images/4abd766e-e084-4b85-a8a8-7f9dae444fb6.png",
         "title": "",
         "content": "",
         "button_text": "",
