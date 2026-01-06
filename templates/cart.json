@@ -9,28 +9,6 @@
  */
 {
   "sections": {
-    "176764816976216f29": {
-      "type": "apps",
-      "blocks": {
-        "gsc_countdown_timer_countdown_BzJVUc": {
-          "type": "shopify://apps/gsc-countdown-timer/blocks/countdown/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
-          "settings": {
-            "widget_id": ""
-          }
-        }
-      },
-      "block_order": [
-        "gsc_countdown_timer_countdown_BzJVUc"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "main": {
       "type": "main-cart",
       "blocks": {
@@ -63,7 +41,6 @@
     }
   },
   "order": [
-    "176764816976216f29",
     "main"
   ]
 }

@@ -117,6 +117,14 @@
           "settings": {
             "text": "<p>📦 <strong>Contenu du colis :</strong></p><ul><li>1× Lanterne solaire Luméa™</li><li>1× Crochet de suspension avec corde solide</li><li>1× Manuel d’utilisation</li><li>1× Câble USB-C</li></ul>"
           }
+        },
+        "image_CLyNzW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2026-01-05_a_21.07.05-removebg-preview.png",
+            "alignment": "start",
+            "max_width": 420
+          }
         }
       },
       "block_order": [
@@ -135,7 +143,8 @@
         "image_Gixm6b",
         "text_tc8LBr",
         "image_BctXRN",
-        "text_gjWa7p"
+        "text_gjWa7p",
+        "image_CLyNzW"
       ],
       "settings": {
         "full_width": true,
