@@ -69,33 +69,10 @@
         "background_opacity": 100,
         "background_blur_radius": 0
       }
-    },
-    "1767801726fbfba074": {
-      "type": "apps",
-      "blocks": {
-        "gsc_countdown_timer_countdown_k4bdtt": {
-          "type": "shopify://apps/gsc-countdown-timer/blocks/countdown/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
-          "settings": {
-            "widget_id": "GSC-EMBED-UzbxdbwaSEQW"
-          }
-        }
-      },
-      "block_order": [
-        "gsc_countdown_timer_countdown_k4bdtt"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
     "announcement-bar",
-    "header",
-    "1767801726fbfba074"
+    "header"
   ]
 }
