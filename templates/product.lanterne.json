@@ -23,6 +23,14 @@
             "heading_tag": "h2"
           }
         },
+        "image_EQeTk3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2026-01-05_a_21.49.12.png",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
         "badges": {
           "type": "badges",
           "settings": {}
@@ -113,6 +121,7 @@
       "block_order": [
         "vendor",
         "title",
+        "image_EQeTk3",
         "badges",
         "price",
         "rating",
