@@ -31,10 +31,10 @@
             "max_width": 290
           }
         },
-        "liquid_aWAmD3": {
+        "liquid_wpR7NN": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"\n  background: {{ background_color | default: \"#1665341A\" }};\n  color: {{ text_color | default: \"#166534\" }};\n  border-radius: {{ border_radius | default: \"20px\" }};\n  font-size: {{ font_size | default: \"13px\" }};\n  padding: {{ padding | default: \"0px 14px\" }};\n  display: inline-flex;\n  align-items: center;\n  gap: {{ gap | default: \"6px\" }};\n  box-shadow: {{ box_shadow | default: \"0 1px 2px rgba(0, 0, 0, 0.08)\" }};\n  margin: {{ margin | default: \"5px 0\" }};\n\">\n  <span style=\"\n    width: {{ dot_size | default: \"10px\" }};\n    height: {{ dot_size | default: \"10px\" }};\n    border-radius: 50%;\n    background: {{ dot_color | default: \"#166534\" }};\n    display: inline-block;\n  \"></span>\n  <strong>{{ title_text | default: \" \" }}</strong>&nbsp;{{ viewer_text | default: \"Actuellement consulté par plusieurs personnes\" }}\n</div>"
+            "liquid": "<style>\n  .custom-alert-wrapper {\n    background: {{ background_gradient | default: \"linear-gradient(135deg, #ffcccc, #ffaaaa)\" }};\n    background-color: {{ background_color | default: \"#FEE2E2\" }};\n    padding: {{ padding | default: \"2px 10px\" }};\n    border-radius: {{ border_radius | default: \"8px\" }};\n    display: inline-block;\n    text-align: center;\n    margin: {{ margin | default: \"0 auto\" }};\n    width: {{ width | default: \"auto\" }};\n  }\n\n  .custom-alert-blink {\n    animation: blink-animation {{ animation_speed | default: \"1.5s\" }} steps(5, start) infinite;\n    color: {{ dot_color | default: \"red\" }};\n    display: inline-block;\n    vertical-align: middle;\n    font-size: {{ dot_size | default: \"10px\" }};\n  }\n\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n\n  .custom-alert-text {\n    display: inline-block;\n    vertical-align: middle;\n    margin-left: {{ text_margin | default: \"10px\" }};\n    color: {{ text_color | default: \"#991B1B\" }};\n    font-weight: {{ font_weight | default: \"500\" }};\n    font-size: {{ font_size | default: \"12px\" }};\n    text-align: justify;\n  }\n</style>\n\n<div class=\"custom-alert-wrapper\">\n  <div class=\"custom-alert-blink\">{{ dot_symbol | default: \"&#9679;\" }}</div>\n  <div class=\"custom-alert-text\">{{ alert_message | default: \"Plus que 12 lanternes disponibles\" }}</div>\n</div>"
           }
         },
         "badges": {
@@ -96,10 +96,10 @@
             "payment_button_text_color": ""
           }
         },
-        "liquid_wpR7NN": {
+        "liquid_aWAmD3": {
           "type": "liquid",
           "settings": {
-            "liquid": "<style>\n  .custom-alert-wrapper {\n    background: {{ background_gradient | default: \"linear-gradient(135deg, #ffcccc, #ffaaaa)\" }};\n    background-color: {{ background_color | default: \"#FEE2E2\" }};\n    padding: {{ padding | default: \"2px 10px\" }};\n    border-radius: {{ border_radius | default: \"8px\" }};\n    display: inline-block;\n    text-align: center;\n    margin: {{ margin | default: \"0 auto\" }};\n    width: {{ width | default: \"auto\" }};\n  }\n\n  .custom-alert-blink {\n    animation: blink-animation {{ animation_speed | default: \"1.5s\" }} steps(5, start) infinite;\n    color: {{ dot_color | default: \"red\" }};\n    display: inline-block;\n    vertical-align: middle;\n    font-size: {{ dot_size | default: \"10px\" }};\n  }\n\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n\n  .custom-alert-text {\n    display: inline-block;\n    vertical-align: middle;\n    margin-left: {{ text_margin | default: \"10px\" }};\n    color: {{ text_color | default: \"#991B1B\" }};\n    font-weight: {{ font_weight | default: \"500\" }};\n    font-size: {{ font_size | default: \"12px\" }};\n    text-align: justify;\n  }\n</style>\n\n<div class=\"custom-alert-wrapper\">\n  <div class=\"custom-alert-blink\">{{ dot_symbol | default: \"&#9679;\" }}</div>\n  <div class=\"custom-alert-text\">{{ alert_message | default: \"Plus que 12 lanternes disponibles\" }}</div>\n</div>"
+            "liquid": "<div style=\"\n  background: {{ background_color | default: \"#1665341A\" }};\n  color: {{ text_color | default: \"#166534\" }};\n  border-radius: {{ border_radius | default: \"20px\" }};\n  font-size: {{ font_size | default: \"13px\" }};\n  padding: {{ padding | default: \"0px 14px\" }};\n  display: inline-flex;\n  align-items: center;\n  gap: {{ gap | default: \"6px\" }};\n  box-shadow: {{ box_shadow | default: \"0 1px 2px rgba(0, 0, 0, 0.08)\" }};\n  margin: {{ margin | default: \"5px 0\" }};\n\">\n  <span style=\"\n    width: {{ dot_size | default: \"10px\" }};\n    height: {{ dot_size | default: \"10px\" }};\n    border-radius: 50%;\n    background: {{ dot_color | default: \"#166534\" }};\n    display: inline-block;\n  \"></span>\n  <strong>{{ title_text | default: \" \" }}</strong>&nbsp;{{ viewer_text | default: \"Actuellement consulté par plusieurs personnes\" }}\n</div>"
           }
         },
         "image_Gixm6b": {
@@ -144,7 +144,7 @@
         "vendor",
         "title",
         "image_qPCPKV",
-        "liquid_aWAmD3",
+        "liquid_wpR7NN",
         "badges",
         "price",
         "rating",
@@ -154,7 +154,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "liquid_wpR7NN",
+        "liquid_aWAmD3",
         "image_Gixm6b",
         "text_tc8LBr",
         "image_BctXRN",
