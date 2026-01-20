@@ -300,6 +300,68 @@
         "product_card_text_color": ""
       }
     },
+    "media_grid_Vc8YWa": {
+      "type": "media-grid",
+      "blocks": {
+        "image_aLMApJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Blanket-White03.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_FKTCDK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Votre_texte_de_paragraphe_1_-Photoroom.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#f3ede4",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_aLMApJ",
+        "image_FKTCDK"
+      ],
+      "name": "Media grid",
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
     "scrolling-text": {
       "type": "scrolling-text",
       "disabled": true,
@@ -335,6 +397,7 @@
       "block_order": [
         "1664424181b38582d5-0"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -652,8 +715,8 @@
       ],
       "disabled": true,
       "settings": {
-        "full_width": true,
-        "images_layout": "scattered",
+        "full_width": false,
+        "images_layout": "collage",
         "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
@@ -827,6 +890,7 @@
     "image-link-blocks",
     "collection-list",
     "featured-collection",
+    "media_grid_Vc8YWa",
     "scrolling-text",
     "impact-text",
     "media-grid",
