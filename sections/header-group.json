@@ -17,7 +17,7 @@
         "message_MKC9AD": {
           "type": "message",
           "settings": {
-            "text": "Satisfait ou remboursé",
+            "text": "Soldes de la Saint-Valentin : Jusqu'à -50%",
             "url": ""
           }
         },
@@ -50,7 +50,6 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/ChatGPT_Image_5_janv._2026__16_39_54-removebg-preview.png",
         "logo_max_width": 225,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",

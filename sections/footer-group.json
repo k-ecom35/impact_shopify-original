@@ -17,7 +17,6 @@
         "item_JEt6F4": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-01-05_a_21.28.36.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -30,7 +29,6 @@
         "item_mNj4Pd": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-01-05_a_21.29.38.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -43,7 +41,6 @@
         "item_wXwMdj": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-01-05_a_21.29.26.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -56,7 +53,6 @@
         "item_K98EBg": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-01-05_a_21.29.13.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -69,7 +65,6 @@
         "item_VbrbFT": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-01-05_a_21.29.01.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -82,7 +77,6 @@
         "item_KraF9d": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-01-05_a_21.28.49.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -95,7 +89,6 @@
         "item_8kHjjd": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-01-05_a_21.29.48.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -241,7 +234,7 @@
         "text"
       ],
       "settings": {
-        "show_social_media": true,
+        "show_social_media": false,
         "show_payment_icons": true,
         "show_policy_links": true,
         "show_country_selector": true,
