@@ -17,23 +17,23 @@
     "block_shadow_opacity": 10,
     "block_shadow_vertical_offset": 18,
     "button_style": "fill",
-    "background": "#f8f4ed",
-    "text_color": "#333333",
+    "background": "#f3ede4",
+    "text_color": "#2b2b2b",
     "header_background": "#f8f4ed",
     "header_text_color": "#333333",
     "footer_background": "#f8f4ed",
     "footer_text_color": "#333333",
-    "primary_button_background": "#1a1a1a",
+    "primary_button_background": "#c46a3a",
     "primary_button_text_color": "#ffffff",
     "secondary_button_background": "#f0c417",
-    "secondary_button_text_color": "#1a1a1a",
+    "secondary_button_text_color": "#8b5e3c",
     "product_card_background": "#f8f4ed",
     "product_card_text_color": "#333333",
     "product_primary_badge_background": "#803cee",
     "heading_font": "playfair_display_n4",
     "heading_font_size": "large",
-    "heading_letter_spacing": -2,
-    "text_font": "lato_n4",
+    "heading_letter_spacing": 0,
+    "text_font": "poppins_n4",
     "heading_apparition": "split_clip",
     "show_vendor": true,
     "show_product_rating": true,
@@ -47,24 +47,7 @@
     "favicon": "shopify://shop_images/ChatGPT_Image_5_janv._2026__16_39_54-removebg-preview.png",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
-    "content_for_index": [],
-    "blocks": {
-      "7054877461618660028": {
-        "type": "shopify://apps/moon-bundles-upsell-free-gifts/blocks/app-embed/aaf4cd95-8b9b-4a14-b929-0f7fc8fced27",
-        "disabled": false,
-        "settings": {}
-      },
-      "14458903502463230934": {
-        "type": "shopify://apps/moon-bundles-upsell-free-gifts/blocks/cart-drawer/aaf4cd95-8b9b-4a14-b929-0f7fc8fced27",
-        "disabled": false,
-        "settings": {}
-      },
-      "7147999719060634790": {
-        "type": "shopify://apps/gsc-countdown-timer/blocks/countdown-bar/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
-        "disabled": false,
-        "settings": {}
-      }
-    }
+    "content_for_index": []
   },
   "presets": {
     "Sound": {
