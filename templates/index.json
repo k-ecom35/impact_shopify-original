@@ -15,15 +15,15 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/4abd766e-e084-4b85-a8a8-7f9dae444fb6.png",
+            "image": "shopify://shop_images/1d46f7c996aa2c42e5c796b3599912d5.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "",
-            "title": "Illuminez votre jardin sans installation ni contrainte.",
+            "title": "Le confort que votre maison mérite",
             "heading_tag": "h0",
-            "button_text": "Découvrir",
-            "button_link": "shopify://products/lanterne-solaire-dexterieur",
+            "button_text": "Découvrir les plaids",
+            "button_link": "shopify://products/calin-douillet-plaid-ultra-doux-et-epais",
             "text_color": "#f8f4ed",
             "button_background": "#e89b62",
             "button_text_color": "#000000",
@@ -37,7 +37,6 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/image_generee_par_IA_1_007d3701-48d6-458b-ae9a-ed34bf4dd19c.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -79,7 +78,6 @@
         "1664424046b00c932c-0": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/photo_rogner_4.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -92,7 +90,6 @@
         "item_wRnXjp": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2025-10-23_a_15.20.24.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -105,7 +102,6 @@
         "item_XETMjf": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2025-10-23_a_15.20.06.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -118,7 +114,6 @@
         "item_Whphee": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2025-10-23_a_15.19.53.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -215,7 +210,6 @@
           "disabled": true,
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/image_generee_par_IA_1.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -363,7 +357,6 @@
         "item-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2025-10-23_a_15.20.24.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -385,7 +378,6 @@
         "item-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2025-10-23_a_15.20.06.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -407,7 +399,6 @@
         "item-3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ezgif-4f3ece972f86d5.gif",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -430,7 +421,6 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/image_generee_par_IA_1.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -492,7 +482,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/image_generee_par_IA_1_007d3701-48d6-458b-ae9a-ed34bf4dd19c.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -507,8 +496,6 @@
         "subheading": "",
         "title": "Avant / Après",
         "content": "<p>Transformer votre terrasse en quelques secondes</p>",
-        "before_image": "shopify://shop_images/Capture_d_ecran_2025-10-29_a_10.27.09.png",
-        "after_image": "shopify://shop_images/Capture_d_ecran_2025-10-29_a_10.27.19.png",
         "expand_image": false,
         "text_position": "center",
         "before_after_text_position": "bottom",
@@ -613,7 +600,6 @@
       "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify://shop_images/image_generee_par_IA_1_007d3701-48d6-458b-ae9a-ed34bf4dd19c.png",
         "title": "",
         "content": "<h1>Une lanterne éclaire. Trois lanternes transforment l’atmosphère</h1>",
         "button_text": "",
