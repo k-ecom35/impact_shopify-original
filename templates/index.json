@@ -275,29 +275,89 @@
         "heading_gradient": ""
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
+    "media_grid_TAcYhR": {
+      "type": "media-grid",
+      "blocks": {
+        "image_mjWqMV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Votre_texte_de_paragraphe_3_-Photoroom.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#f3ebdd",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_nyDL4J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/utfx.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_NeGfxb": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_mjWqMV",
+        "image_nyDL4J",
+        "image_NeGfxb"
+      ],
+      "name": "Media grid",
       "settings": {
-        "collection": "frontpage",
-        "products": [],
-        "full_width": false,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 2,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Produit Vedette",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "#f8f4ed",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
       }
     },
     "media_grid_Vc8YWa": {
@@ -328,7 +388,7 @@
         "image_FKTCDK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Votre_texte_de_paragraphe_1_-Photoroom.png",
+            "image": "shopify://shop_images/Votre_texte_de_paragraphe_4_-Photoroom.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -337,7 +397,7 @@
             "desktop_column_span": 2,
             "desktop_row_span": 2,
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#f3ede4",
+            "background": "#f3ebdd",
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "",
@@ -516,6 +576,31 @@
         "mobile_row_height": 150,
         "background": "",
         "background_gradient": ""
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "frontpage",
+        "products": [],
+        "full_width": false,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 2,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Produit Vedette",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#f8f4ed",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
       }
     },
     "image-with-text-overlay": {
@@ -889,11 +974,12 @@
     "slideshow",
     "image-link-blocks",
     "collection-list",
-    "featured-collection",
+    "media_grid_TAcYhR",
     "media_grid_Vc8YWa",
     "scrolling-text",
     "impact-text",
     "media-grid",
+    "featured-collection",
     "image-with-text-overlay",
     "before-after-image",
     "press",
