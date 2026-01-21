@@ -26,13 +26,13 @@
         "image_qPCPKV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2025-12-24_a_15.52.33-removebg-preview.png",
             "alignment": "start",
             "max_width": 290
           }
         },
         "liquid_wpR7NN": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<style>\n  .custom-alert-wrapper {\n    background: {{ background_gradient | default: \"linear-gradient(135deg, #ffcccc, #ffaaaa)\" }};\n    background-color: {{ background_color | default: \"#FEE2E2\" }};\n    padding: {{ padding | default: \"2px 10px\" }};\n    border-radius: {{ border_radius | default: \"8px\" }};\n    display: inline-block;\n    text-align: center;\n    margin: {{ margin | default: \"0 auto\" }};\n    width: {{ width | default: \"auto\" }};\n  }\n\n  .custom-alert-blink {\n    animation: blink-animation {{ animation_speed | default: \"1.5s\" }} steps(5, start) infinite;\n    color: {{ dot_color | default: \"red\" }};\n    display: inline-block;\n    vertical-align: middle;\n    font-size: {{ dot_size | default: \"10px\" }};\n  }\n\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n\n  .custom-alert-text {\n    display: inline-block;\n    vertical-align: middle;\n    margin-left: {{ text_margin | default: \"10px\" }};\n    color: {{ text_color | default: \"#991B1B\" }};\n    font-weight: {{ font_weight | default: \"500\" }};\n    font-size: {{ font_size | default: \"12px\" }};\n    text-align: justify;\n  }\n</style>\n\n<div class=\"custom-alert-wrapper\">\n  <div class=\"custom-alert-blink\">{{ dot_symbol | default: \"&#9679;\" }}</div>\n  <div class=\"custom-alert-text\">{{ alert_message | default: \"Plus que 12 lanternes disponibles\" }}</div>\n</div>"
           }
@@ -98,6 +98,7 @@
         },
         "liquid_aWAmD3": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div style=\"\n  background: {{ background_color | default: \"#1665341A\" }};\n  color: {{ text_color | default: \"#166534\" }};\n  border-radius: {{ border_radius | default: \"20px\" }};\n  font-size: {{ font_size | default: \"13px\" }};\n  padding: {{ padding | default: \"0px 14px\" }};\n  display: inline-flex;\n  align-items: center;\n  gap: {{ gap | default: \"6px\" }};\n  box-shadow: {{ box_shadow | default: \"0 1px 2px rgba(0, 0, 0, 0.08)\" }};\n  margin: {{ margin | default: \"5px 0\" }};\n\">\n  <span style=\"\n    width: {{ dot_size | default: \"10px\" }};\n    height: {{ dot_size | default: \"10px\" }};\n    border-radius: 50%;\n    background: {{ dot_color | default: \"#166534\" }};\n    display: inline-block;\n  \"></span>\n  <strong>{{ title_text | default: \" \" }}</strong>&nbsp;{{ viewer_text | default: \"Actuellement consulté par plusieurs personnes\" }}\n</div>"
           }
@@ -106,35 +107,36 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-01-05_a_21.49.12.png",
             "alignment": "center",
             "max_width": 500
           }
         },
         "text_tc8LBr": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>✨ <strong>Pourquoi tout le monde veut Luméa™ :</strong></p><ul><li><strong>Lueur chaude et réaliste</strong> – crée une atmosphère instantanée, sans flamme ni électricité.</li><li><strong>100 % solaire</strong> – se recharge toute seule et s’allume dès la nuit tombée.</li><li><strong>Résistante & durable</strong> – conçue pour résister à la pluie, au vent et au froid.</li><li><strong>Design polyvalent</strong> – suspendue ou posée, elle s’adapte à toutes les ambiances extérieures.</li><li><strong>Éco-énergétique & sans entretien</strong> – de la lumière chaque soir, sans effort.</li></ul>"
           }
         },
         "image_BctXRN": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/ezgif-4f3ece972f86d5.gif",
             "alignment": "center",
             "max_width": 150
           }
         },
         "text_gjWa7p": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>📦 <strong>Contenu du colis :</strong></p><ul><li>1× Lanterne solaire Luméa™</li><li>1× Crochet de suspension avec corde solide</li><li>1× Manuel d’utilisation</li><li>1× Câble USB-C</li></ul>"
           }
         },
         "image_CLyNzW": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-01-05_a_21.07.05-removebg-preview.png",
             "alignment": "start",
             "max_width": 420
           }
@@ -179,13 +181,26 @@
         "input_text_color": ""
       }
     },
+    "custom_liquid_NMzfUd": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"background: transparent; padding: 40px 20px; color: #333;\">\n  <h2 style=\"text-align: center; margin-bottom: 30px;\">\n    <span style=\"font-size: 18px; color: #333;\">{{ heading_prefix | default: \"Pourquoi nos clients \" }}</span>\n    <span style=\"font-family: Pacifico, cursive; background: linear-gradient(135deg, {{ gradient_color_1 | default: \"#24A06F\" }}, {{ gradient_color_2 | default: \"#1B774F\" }}); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 24px;\">{{ heading_highlight | default: \"Nous choisissent \" }}</span>\n    <span style=\"color: {{ accent_color | default: \"#24A06F\" }}; font-size: 24px;\">{{ heading_suffix | default: \"?\" }}</span>\n  </h2>\n\n  <table style=\"width: 100%; max-width: 800px; margin: 0 auto; border-spacing: 0; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); background: #fff;\">\n    <thead style=\"background: linear-gradient(135deg, {{ gradient_color_1 | default: \"#24A06F\" }}, {{ gradient_color_2 | default: \"#1B774F\" }}); color: #fff; text-transform: uppercase;\">\n      <tr>\n        <th style=\"padding: 16px; font-size: 14px; letter-spacing: 1px; text-align: left;\">{{ features_column_title | default: \"Caractéristiques\" }}</th>\n        <th style=\"padding: 16px; font-size: 14px; text-align: center;\">{{ column_1_title | default: \"Luméa™\" }}</th>\n        <th style=\"padding: 16px; font-size: 14px; text-align: center;\">{{ column_2_title | default: \"Autres \" }}</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr style=\"background: #ffffff;\">\n        <td style=\"padding: 14px; text-align: left; border-bottom: 1px solid #ddd; font-size: 15px;\">{{ feature_1 | default: \"Longue autonomie (≥12h) \" }}</td>\n        <td style=\"padding: 14px; text-align: center; border-bottom: 1px solid #ddd;\">\n          <svg width=\"20\" height=\"20\" fill=\"{{ check_color | default: \"#34a853\" }}\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M20.292 5.708a1 1 0 0 1 0 1.414L9 18.414l-5.292-5.292a1 1 0 0 1 1.414-1.414L9 15.586l10.292-10.292a1 1 0 0 1 1.414 0z\"/>\n          </svg>\n        </td>\n        <td style=\"padding: 14px; text-align: center; border-bottom: 1px solid #ddd;\">\n          <svg width=\"20\" height=\"20\" fill=\"{{ x_color | default: \"#ea4335\" }}\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M18.364 5.636a1 1 0 0 1 0 1.414L13.414 12l4.95 4.95a1 1 0 0 1-1.414 1.414L12 13.414l-4.95 4.95a1 1 0 0 1-1.414-1.414L10.586 12l-4.95-4.95a1 1 0 0 1 1.414-1.414L12 10.586l4.95-4.95a1 1 0 0 1 1.414 0z\"/>\n          </svg>\n        </td>\n      </tr>\n      <tr style=\"background: #f7f7f7;\">\n        <td style=\"padding: 14px; text-align: left; border-bottom: 1px solid #ddd; font-size: 15px;\">{{ feature_2 | default: \"Étanche (pluie / vent / neige)\" }}</td>\n        <td style=\"padding: 14px; text-align: center; border-bottom: 1px solid #ddd;\">\n          <svg width=\"20\" height=\"20\" fill=\"{{ check_color | default: \"#34a853\" }}\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M20.292 5.708a1 1 0 0 1 0 1.414L9 18.414l-5.292-5.292a1 1 0 0 1 1.414-1.414L9 15.586l10.292-10.292a1 1 0 0 1 1.414 0z\"/>\n          </svg>\n        </td>\n        <td style=\"padding: 14px; text-align: center; border-bottom: 1px solid #ddd;\">\n          <svg width=\"20\" height=\"20\" fill=\"{{ x_color | default: \"#ea4335\" }}\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M18.364 5.636a1 1 0 0 1 0 1.414L13.414 12l4.95 4.95a1 1 0 0 1-1.414 1.414L12 13.414l-4.95 4.95a1 1 0 0 1-1.414-1.414L10.586 12l-4.95-4.95a1 1 0 0 1 1.414-1.414L12 10.586l4.95-4.95a1 1 0 0 1 1.414 0z\"/>\n          </svg>\n        </td>\n      </tr>\n      <tr style=\"background: #ffffff;\">\n        <td style=\"padding: 14px; text-align: left; border-bottom: 1px solid #ddd; font-size: 15px;\">{{ feature_3 | default: \"Plusieurs modes d’éclairage\" }}</td>\n        <td style=\"padding: 14px; text-align: center; border-bottom: 1px solid #ddd;\">\n          <svg width=\"20\" height=\"20\" fill=\"{{ check_color | default: \"#34a853\" }}\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M20.292 5.708a1 1 0 0 1 0 1.414L9 18.414l-5.292-5.292a1 1 0 0 1 1.414-1.414L9 15.586l10.292-10.292a1 1 0 0 1 1.414 0z\"/>\n          </svg>\n        </td>\n        <td style=\"padding: 14px; text-align: center; border-bottom: 1px solid #ddd;\">\n          <svg width=\"20\" height=\"20\" fill=\"{{ x_color | default: \"#ea4335\" }}\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M18.364 5.636a1 1 0 0 1 0 1.414L13.414 12l4.95 4.95a1 1 0 0 1-1.414 1.414L12 13.414l-4.95 4.95a1 1 0 0 1-1.414-1.414L10.586 12l-4.95-4.95a1 1 0 0 1 1.414-1.414L12 10.586l4.95-4.95a1 1 0 0 1 1.414 0z\"/>\n          </svg>\n        </td>\n      </tr>\n      <tr style=\"background: #f7f7f7;\">\n        <td style=\"padding: 14px; text-align: left; border-bottom: 1px solid #ddd; font-size: 15px;\">{{ feature_4 | default: \"Garantie incluse\" }}</td>\n        <td style=\"padding: 14px; text-align: center; border-bottom: 1px solid #ddd;\">\n          <svg width=\"20\" height=\"20\" fill=\"{{ check_color | default: \"#34a853\" }}\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M20.292 5.708a1 1 0 0 1 0 1.414L9 18.414l-5.292-5.292a1 1 0 0 1 1.414-1.414L9 15.586l10.292-10.292a1 1 0 0 1 1.414 0z\"/>\n          </svg>\n        </td>\n        <td style=\"padding: 14px; text-align: center; border-bottom: 1px solid #ddd;\">\n          <svg width=\"20\" height=\"20\" fill=\"{{ x_color | default: \"#ea4335\" }}\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M18.364 5.636a1 1 0 0 1 0 1.414L13.414 12l4.95 4.95a1 1 0 0 1-1.414 1.414L12 13.414l-4.95 4.95a1 1 0 0 1-1.414-1.414L10.586 12l-4.95-4.95a1 1 0 0 1 1.414-1.414L12 10.586l4.95-4.95a1 1 0 0 1 1.414 0z\"/>\n          </svg>\n        </td>\n      </tr>\n      <tr style=\"background: #ffffff;\">\n        <td style=\"padding: 14px; text-align: left; border-bottom: 1px solid #ddd; font-size: 15px;\">{{ feature_5 | default: \"Recharge solaire\" }}</td>\n        <td style=\"padding: 14px; text-align: center; border-bottom: 1px solid #ddd;\">\n          <svg width=\"20\" height=\"20\" fill=\"{{ check_color | default: \"#34a853\" }}\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M20.292 5.708a1 1 0 0 1 0 1.414L9 18.414l-5.292-5.292a1 1 0 0 1 1.414-1.414L9 15.586l10.292-10.292a1 1 0 0 1 1.414 0z\"/>\n          </svg>\n        </td>\n        <td style=\"padding: 14px; text-align: center; border-bottom: 1px solid #ddd;\">\n          <svg width=\"20\" height=\"20\" fill=\"{{ x_color | default: \"#ea4335\" }}\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M18.364 5.636a1 1 0 0 1 0 1.414L13.414 12l4.95 4.95a1 1 0 0 1-1.414 1.414L12 13.414l-4.95 4.95a1 1 0 0 1-1.414-1.414L10.586 12l-4.95-4.95a1 1 0 0 1 1.414-1.414L12 10.586l4.95-4.95a1 1 0 0 1 1.414 0z\"/>\n          </svg>\n        </td>\n      </tr>\n    </tbody>\n  </table>\n\n  <style>\n    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');\n    @media (max-width: 600px) {\n      table {\n        font-size: 12px !important;\n      }\n      th, td {\n        padding: 10px !important;\n      }\n    }\n  </style>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "slideshow_tfhDnY": {
       "type": "slideshow",
       "blocks": {
         "image_Qrbkbk": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ad321c20-a206-46c1-9fa3-46c622d50e86_1.png",
             "content_max_width": 660,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -217,21 +232,8 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
-      }
-    },
-    "custom_liquid_NMzfUd": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"background: transparent; padding: 40px 20px; color: #333;\">\n  <h2 style=\"text-align: center; margin-bottom: 30px;\">\n    <span style=\"font-size: 18px; color: #333;\">{{ heading_prefix | default: \"Pourquoi nos clients \" }}</span>\n    <span style=\"font-family: Pacifico, cursive; background: linear-gradient(135deg, {{ gradient_color_1 | default: \"#24A06F\" }}, {{ gradient_color_2 | default: \"#1B774F\" }}); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 24px;\">{{ heading_highlight | default: \"Nous choisissent \" }}</span>\n    <span style=\"color: {{ accent_color | default: \"#24A06F\" }}; font-size: 24px;\">{{ heading_suffix | default: \"?\" }}</span>\n  </h2>\n\n  <table style=\"width: 100%; max-width: 800px; margin: 0 auto; border-spacing: 0; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); background: #fff;\">\n    <thead style=\"background: linear-gradient(135deg, {{ gradient_color_1 | default: \"#24A06F\" }}, {{ gradient_color_2 | default: \"#1B774F\" }}); color: #fff; text-transform: uppercase;\">\n      <tr>\n        <th style=\"padding: 16px; font-size: 14px; letter-spacing: 1px; text-align: left;\">{{ features_column_title | default: \"Caractéristiques\" }}</th>\n        <th style=\"padding: 16px; font-size: 14px; text-align: center;\">{{ column_1_title | default: \"Luméa™\" }}</th>\n        <th style=\"padding: 16px; font-size: 14px; text-align: center;\">{{ column_2_title | default: \"Autres \" }}</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr style=\"background: #ffffff;\">\n        <td style=\"padding: 14px; text-align: left; border-bottom: 1px solid #ddd; font-size: 15px;\">{{ feature_1 | default: \"Longue autonomie (≥12h) \" }}</td>\n        <td style=\"padding: 14px; text-align: center; border-bottom: 1px solid #ddd;\">\n          <svg width=\"20\" height=\"20\" fill=\"{{ check_color | default: \"#34a853\" }}\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M20.292 5.708a1 1 0 0 1 0 1.414L9 18.414l-5.292-5.292a1 1 0 0 1 1.414-1.414L9 15.586l10.292-10.292a1 1 0 0 1 1.414 0z\"/>\n          </svg>\n        </td>\n        <td style=\"padding: 14px; text-align: center; border-bottom: 1px solid #ddd;\">\n          <svg width=\"20\" height=\"20\" fill=\"{{ x_color | default: \"#ea4335\" }}\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M18.364 5.636a1 1 0 0 1 0 1.414L13.414 12l4.95 4.95a1 1 0 0 1-1.414 1.414L12 13.414l-4.95 4.95a1 1 0 0 1-1.414-1.414L10.586 12l-4.95-4.95a1 1 0 0 1 1.414-1.414L12 10.586l4.95-4.95a1 1 0 0 1 1.414 0z\"/>\n          </svg>\n        </td>\n      </tr>\n      <tr style=\"background: #f7f7f7;\">\n        <td style=\"padding: 14px; text-align: left; border-bottom: 1px solid #ddd; font-size: 15px;\">{{ feature_2 | default: \"Étanche (pluie / vent / neige)\" }}</td>\n        <td style=\"padding: 14px; text-align: center; border-bottom: 1px solid #ddd;\">\n          <svg width=\"20\" height=\"20\" fill=\"{{ check_color | default: \"#34a853\" }}\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M20.292 5.708a1 1 0 0 1 0 1.414L9 18.414l-5.292-5.292a1 1 0 0 1 1.414-1.414L9 15.586l10.292-10.292a1 1 0 0 1 1.414 0z\"/>\n          </svg>\n        </td>\n        <td style=\"padding: 14px; text-align: center; border-bottom: 1px solid #ddd;\">\n          <svg width=\"20\" height=\"20\" fill=\"{{ x_color | default: \"#ea4335\" }}\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M18.364 5.636a1 1 0 0 1 0 1.414L13.414 12l4.95 4.95a1 1 0 0 1-1.414 1.414L12 13.414l-4.95 4.95a1 1 0 0 1-1.414-1.414L10.586 12l-4.95-4.95a1 1 0 0 1 1.414-1.414L12 10.586l4.95-4.95a1 1 0 0 1 1.414 0z\"/>\n          </svg>\n        </td>\n      </tr>\n      <tr style=\"background: #ffffff;\">\n        <td style=\"padding: 14px; text-align: left; border-bottom: 1px solid #ddd; font-size: 15px;\">{{ feature_3 | default: \"Plusieurs modes d’éclairage\" }}</td>\n        <td style=\"padding: 14px; text-align: center; border-bottom: 1px solid #ddd;\">\n          <svg width=\"20\" height=\"20\" fill=\"{{ check_color | default: \"#34a853\" }}\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M20.292 5.708a1 1 0 0 1 0 1.414L9 18.414l-5.292-5.292a1 1 0 0 1 1.414-1.414L9 15.586l10.292-10.292a1 1 0 0 1 1.414 0z\"/>\n          </svg>\n        </td>\n        <td style=\"padding: 14px; text-align: center; border-bottom: 1px solid #ddd;\">\n          <svg width=\"20\" height=\"20\" fill=\"{{ x_color | default: \"#ea4335\" }}\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M18.364 5.636a1 1 0 0 1 0 1.414L13.414 12l4.95 4.95a1 1 0 0 1-1.414 1.414L12 13.414l-4.95 4.95a1 1 0 0 1-1.414-1.414L10.586 12l-4.95-4.95a1 1 0 0 1 1.414-1.414L12 10.586l4.95-4.95a1 1 0 0 1 1.414 0z\"/>\n          </svg>\n        </td>\n      </tr>\n      <tr style=\"background: #f7f7f7;\">\n        <td style=\"padding: 14px; text-align: left; border-bottom: 1px solid #ddd; font-size: 15px;\">{{ feature_4 | default: \"Garantie incluse\" }}</td>\n        <td style=\"padding: 14px; text-align: center; border-bottom: 1px solid #ddd;\">\n          <svg width=\"20\" height=\"20\" fill=\"{{ check_color | default: \"#34a853\" }}\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M20.292 5.708a1 1 0 0 1 0 1.414L9 18.414l-5.292-5.292a1 1 0 0 1 1.414-1.414L9 15.586l10.292-10.292a1 1 0 0 1 1.414 0z\"/>\n          </svg>\n        </td>\n        <td style=\"padding: 14px; text-align: center; border-bottom: 1px solid #ddd;\">\n          <svg width=\"20\" height=\"20\" fill=\"{{ x_color | default: \"#ea4335\" }}\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M18.364 5.636a1 1 0 0 1 0 1.414L13.414 12l4.95 4.95a1 1 0 0 1-1.414 1.414L12 13.414l-4.95 4.95a1 1 0 0 1-1.414-1.414L10.586 12l-4.95-4.95a1 1 0 0 1 1.414-1.414L12 10.586l4.95-4.95a1 1 0 0 1 1.414 0z\"/>\n          </svg>\n        </td>\n      </tr>\n      <tr style=\"background: #ffffff;\">\n        <td style=\"padding: 14px; text-align: left; border-bottom: 1px solid #ddd; font-size: 15px;\">{{ feature_5 | default: \"Recharge solaire\" }}</td>\n        <td style=\"padding: 14px; text-align: center; border-bottom: 1px solid #ddd;\">\n          <svg width=\"20\" height=\"20\" fill=\"{{ check_color | default: \"#34a853\" }}\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M20.292 5.708a1 1 0 0 1 0 1.414L9 18.414l-5.292-5.292a1 1 0 0 1 1.414-1.414L9 15.586l10.292-10.292a1 1 0 0 1 1.414 0z\"/>\n          </svg>\n        </td>\n        <td style=\"padding: 14px; text-align: center; border-bottom: 1px solid #ddd;\">\n          <svg width=\"20\" height=\"20\" fill=\"{{ x_color | default: \"#ea4335\" }}\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M18.364 5.636a1 1 0 0 1 0 1.414L13.414 12l4.95 4.95a1 1 0 0 1-1.414 1.414L12 13.414l-4.95 4.95a1 1 0 0 1-1.414-1.414L10.586 12l-4.95-4.95a1 1 0 0 1 1.414-1.414L12 10.586l4.95-4.95a1 1 0 0 1 1.414 0z\"/>\n          </svg>\n        </td>\n      </tr>\n    </tbody>\n  </table>\n\n  <style>\n    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');\n    @media (max-width: 600px) {\n      table {\n        font-size: 12px !important;\n      }\n      th, td {\n        padding: 10px !important;\n      }\n    }\n  </style>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     }
   },
