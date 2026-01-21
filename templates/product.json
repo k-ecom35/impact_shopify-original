@@ -338,7 +338,7 @@
         "image_m8hdhD": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Blanket-Flaxen08_1.jpg",
+            "image": "shopify://shop_images/Votre_texte_de_paragraphe_5_-Photoroom.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -347,7 +347,7 @@
             "desktop_column_span": 2,
             "desktop_row_span": 2,
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
+            "background": "#f3ebdd",
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "",
@@ -424,7 +424,7 @@
         "image_wLJdeE": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/THE_FLEECE_BLANKET_1.png",
+            "image": "shopify://shop_images/Votre_texte_de_paragraphe_6_-Photoroom.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -433,7 +433,7 @@
             "desktop_column_span": 2,
             "desktop_row_span": 2,
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
+            "background": "#f3ebdd",
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "",
