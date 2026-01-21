@@ -614,6 +614,84 @@
         "input_text_color": ""
       }
     },
+    "image_link_blocks_DRWHwR": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_TdqkxN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Blanket-Flaxen_01.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_YC9mj7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Blanket-Brown_01.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_9YAi4y": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Blanket-Light_grey_01.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_xt3nCX": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Blanket-White_01.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_TdqkxN",
+        "item_YC9mj7",
+        "item_9YAi4y",
+        "item_xt3nCX"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "full_width": false,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "rich_text_TYKL9X": {
       "type": "rich-text",
       "blocks": {
@@ -1163,6 +1241,7 @@
     "scrolling-text",
     "impact-text",
     "featured_product_NeWGPb",
+    "image_link_blocks_DRWHwR",
     "rich_text_TYKL9X",
     "media-grid",
     "featured-collection",
