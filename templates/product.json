@@ -81,6 +81,12 @@
             "size_chart_page": ""
           }
         },
+        "liquid_xCKJm7": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -90,10 +96,22 @@
           "settings": {
             "show_payment_button": true,
             "show_gift_card_recipient": true,
-            "atc_button_background": "#ffb74a",
+            "atc_button_background": "#f8f4ed",
             "atc_button_text_color": "",
-            "payment_button_background": "",
+            "payment_button_background": "#6b4e3d",
             "payment_button_text_color": ""
+          }
+        },
+        "liquid_fW8N3W": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
+        "liquid_DJj3Tg": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<link rel=\"preload\" as=\"image\" href=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/visa.svg\"/>\n<link rel=\"preload\" as=\"image\" href=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/master.svg\"/>\n<link rel=\"preload\" as=\"image\" href=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/american_express.svg\"/>\n<link rel=\"preload\" as=\"image\" href=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/paypal.svg\"/>\n<link rel=\"preload\" as=\"image\" href=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/apple_pay.svg\"/>\n<link rel=\"preload\" as=\"image\" href=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/google_pay.svg\"/>\n<link rel=\"preload\" as=\"image\" href=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/ideal.svg\"/>\n<link rel=\"preload\" as=\"image\" href=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/klarna.svg\"/>\n<link rel=\"preload\" as=\"image\" href=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/stripe.svg\"/>\n<link rel=\"preload\" as=\"image\" href=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/unionpay.svg\"/>\n<link rel=\"preload\" as=\"image\" href=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/discover.svg\"/>\n<link rel=\"preload\" as=\"image\" href=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/jcb.svg\"/>\n<link rel=\"preload\" as=\"image\" href=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/diners_club.svg\"/>\n<link rel=\"preload\" as=\"image\" href=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/maestro.svg\"/>\n<link rel=\"preload\" as=\"image\" href=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/sofort.svg\"/>\n<link rel=\"preload\" as=\"image\" href=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/bancontact.svg\"/>\n<link rel=\"preload\" as=\"image\" href=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/giropay.svg\"/>\n<link rel=\"preload\" as=\"image\" href=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/eps.svg\"/>\n<link rel=\"preload\" as=\"image\" href=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/sepa.svg\"/>\n<link rel=\"preload\" as=\"image\" href=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/afterpay.svg\"/>\n<link rel=\"preload\" as=\"image\" href=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/alipay.svg\"/>\n<link rel=\"preload\" as=\"image\" href=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/wechat_pay.svg\"/>\n\n<style>\n  .payment-methods-container .payment-icon {\n    height: {{ icon_height | default: \"28px\" }};\n    width: auto;\n    filter: {{ icon_filter | default: \"none\" }};\n  }\n  @media (max-width: 768px) {\n    .payment-methods-container .payment-icon {\n      height: {{ mobile_icon_height | default: \"20px\" }} !important;\n    }\n    .payment-methods-container {\n      gap: {{ mobile_gap | default: \"4px\" }} !important;\n      padding: {{ mobile_padding | default: \"8px\" }} !important;\n    }\n  }\n</style>\n\n<div style=\"margin-top:{{ margin_top | default: \"0.25rem\" }};margin-bottom:{{ margin_bottom | default: \"0.25rem\" }};width:100%\">\n  <div class=\"payment-methods-container\" style=\"\n    display: flex;\n    align-items: center;\n    justify-content: {{ alignment | default: \"center\" }};\n    flex-wrap: wrap;\n    width: 100%;\n    gap: {{ gap | default: \"6px\" }};\n    padding: {{ padding | default: \"12px\" }};\n    background: {{ background_color | default: \"transparent\" }};\n    border-radius: {{ border_radius | default: \"8px\" }};\n    max-width: 100%;\n    overflow-x: auto;\n    -webkit-overflow-scrolling: touch;\n  \">\n    \n    <img src=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/visa.svg\" alt=\"Visa\" class=\"payment-icon\"/>\n    \n    \n    <img src=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/master.svg\" alt=\"Mastercard\" class=\"payment-icon\"/>\n    \n    \n    <img src=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/american_express.svg\" alt=\"American Express\" class=\"payment-icon\"/>\n    \n    \n    \n    \n    \n    \n    \n    <img src=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/paypal.svg\" alt=\"PayPal\" class=\"payment-icon\"/>\n    \n    \n    \n    <img src=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/apple_pay.svg\" alt=\"Apple Pay\" class=\"payment-icon\"/>\n    \n    \n    <img src=\"https://raw.githubusercontent.com/activemerchant/payment_icons/refs/heads/master/app/assets/images/payment_icons/google_pay.svg\" alt=\"Google Pay\" class=\"payment-icon\"/>\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n  </div>\n</div>"
           }
         },
         "liquid_aWAmD3": {
@@ -154,8 +172,11 @@
         "separator",
         "description",
         "variant_picker",
+        "liquid_xCKJm7",
         "quantity_selector",
         "buy_buttons",
+        "liquid_fW8N3W",
+        "liquid_DJj3Tg",
         "liquid_aWAmD3",
         "image_Gixm6b",
         "text_tc8LBr",
@@ -179,67 +200,6 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
-      }
-    },
-    "text_with_icons_EgGGEp": {
-      "type": "text-with-icons",
-      "blocks": {
-        "item_NTxGfT": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-truck",
-            "mobile_icon_width": 24,
-            "icon_width": 28,
-            "icon_background_type": "circle",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Livraison offerte",
-            "content": "<p>Expédition suivie sous 48h</p>"
-          }
-        },
-        "item_WEJhbk": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-credit-card",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Paiement sécurisé",
-            "content": "<p>carte bancaire & paiement protégé</p>"
-          }
-        },
-        "item_NaqccH": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-return",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Retours faciles",
-            "content": "<p>30 jours pour changer d'avis</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_NTxGfT",
-        "item_WEJhbk",
-        "item_NaqccH"
-      ],
-      "name": "Text with icons",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "title": "",
-        "heading_tag": "h6",
-        "text_alignment": "center",
-        "icon_spacing": "small",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "media_grid_XePfCC": {
@@ -733,7 +693,6 @@
   },
   "order": [
     "main",
-    "text_with_icons_EgGGEp",
     "media_grid_XePfCC",
     "media_grid_g9W6Ph",
     "media_grid_fFUxhB",
