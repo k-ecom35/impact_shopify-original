@@ -614,6 +614,47 @@
         "input_text_color": ""
       }
     },
+    "rich_text_TYKL9X": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mkJHDn": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_Da4nUG": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Rentrer chez soi.</p><p>Se poser.</p><p>S'envelopper.</p>"
+          }
+        },
+        "subheading_dHbiz8": {
+          "type": "subheading",
+          "settings": {
+            "text": "C'est ça, Nid Douillet"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mkJHDn",
+        "richtext_Da4nUG",
+        "subheading_dHbiz8"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "media-grid": {
       "type": "media-grid",
       "blocks": {
@@ -709,6 +750,7 @@
         "item-3",
         "29246d34-c6e0-4373-84f6-b15e57736a00"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "reduce_width": false,
@@ -720,6 +762,7 @@
     },
     "featured-collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "frontpage",
         "products": [],
@@ -1120,6 +1163,7 @@
     "scrolling-text",
     "impact-text",
     "featured_product_NeWGPb",
+    "rich_text_TYKL9X",
     "media-grid",
     "featured-collection",
     "image-with-text-overlay",
