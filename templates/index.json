@@ -422,6 +422,42 @@
         "background_gradient": ""
       }
     },
+    "impact_text_aPBiwB": {
+      "type": "impact-text",
+      "blocks": {
+        "item_A3P4Tb": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "subheading": "Notre best-seller",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_A3P4Tb"
+      ],
+      "name": "Impact text",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "scrolling-text": {
       "type": "scrolling-text",
       "disabled": true,
@@ -563,7 +599,7 @@
       "settings": {
         "full_width": true,
         "product": "calin-douillet-plaid-ultra-doux-et-epais",
-        "desktop_media_width": 55,
+        "desktop_media_width": 45,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
         "mobile_carousel_control": "floating_dots",
@@ -1080,6 +1116,7 @@
     "collection-list",
     "media_grid_TAcYhR",
     "media_grid_Vc8YWa",
+    "impact_text_aPBiwB",
     "scrolling-text",
     "impact-text",
     "featured_product_NeWGPb",
