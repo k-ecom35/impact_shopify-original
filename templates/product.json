@@ -187,7 +187,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Blanket-Flaxen07_1.jpg",
-            "title": "Promote your products",
+            "title": "",
             "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
@@ -209,7 +209,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Blanket-Flaxen07_1.jpg",
-            "title": "Promote your products",
+            "title": "",
             "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
