@@ -360,104 +360,6 @@
         "background_gradient": ""
       }
     },
-    "media_grid_Vc8YWa": {
-      "type": "media-grid",
-      "blocks": {
-        "image_aLMApJ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Blanket-White03.jpg",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_FKTCDK": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Votre_texte_de_paragraphe_4_-Photoroom.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#f3ebdd",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_aLMApJ",
-        "image_FKTCDK"
-      ],
-      "name": "Media grid",
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
-      }
-    },
-    "impact_text_aPBiwB": {
-      "type": "impact-text",
-      "blocks": {
-        "item_A3P4Tb": {
-          "type": "item",
-          "settings": {
-            "title": "",
-            "subheading": "Notre best-seller",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "item_A3P4Tb"
-      ],
-      "name": "Impact text",
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
-        "background": "",
-        "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "scrolling-text": {
       "type": "scrolling-text",
       "disabled": true,
@@ -505,6 +407,42 @@
         "background_gradient": "",
         "heading_text_color": "",
         "heading_gradient": "linear-gradient(180deg, rgba(26, 26, 26, 0.2), rgba(26, 26, 26, 0) 100%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "impact_text_aPBiwB": {
+      "type": "impact-text",
+      "blocks": {
+        "item_A3P4Tb": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "subheading": "Notre best-seller",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_A3P4Tb"
+      ],
+      "name": "Impact text",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
@@ -767,6 +705,68 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "media_grid_Vc8YWa": {
+      "type": "media-grid",
+      "blocks": {
+        "image_FKTCDK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Votre_texte_de_paragraphe_4_-Photoroom.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#f3ebdd",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_aLMApJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Blanket-White03.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_FKTCDK",
+        "image_aLMApJ"
+      ],
+      "name": "Media grid",
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
       }
     },
     "media-grid": {
@@ -1246,10 +1246,11 @@
         "166442457738b23caf-2",
         "item_gMFiTj"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "FAQ Luméa - Tout savoir",
+        "title": "FAQ Nid Douillet - Tout savoir",
         "content": "",
         "team_avatar_width": 160,
         "support_hours": "",
@@ -1274,14 +1275,14 @@
     "image-link-blocks",
     "collection-list",
     "media_grid_TAcYhR",
-    "media_grid_Vc8YWa",
-    "impact_text_aPBiwB",
     "scrolling-text",
     "impact-text",
+    "impact_text_aPBiwB",
     "featured_product_NeWGPb",
     "impact_text_FbHQth",
     "image_link_blocks_DRWHwR",
     "rich_text_TYKL9X",
+    "media_grid_Vc8YWa",
     "media-grid",
     "featured-collection",
     "image-with-text-overlay",

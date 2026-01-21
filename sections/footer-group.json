@@ -223,7 +223,7 @@
           "type": "text",
           "settings": {
             "title": "Contact",
-            "content": "<p><strong>Horaires d'ouverture :</strong></p><p>Lun - Ven : 09:00 - 18:00<br/>Sam - Dim : 09:00 - 17:00<br/><br/>Vous avez des questions ?<br/>N'hésitez pas à nous contacter via notre page de contact ou par mail lumea75006@gmail.com</p>",
+            "content": "<p><strong>Horaires d'ouverture :</strong></p><p>Lun - Ven : 09:00 - 18:00<br/>Sam - Dim : 09:00 - 17:00<br/><br/>Vous avez des questions ?<br/>N'hésitez pas à nous contacter via notre page de contact.</p><p></p>",
             "enable_follow_on_shop": false
           }
         }
