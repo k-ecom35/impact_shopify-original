@@ -26,6 +26,7 @@
         "image_qPCPKV": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2025-12-24_a_15.52.33-removebg-preview.png",
             "alignment": "start",
             "max_width": 290
           }
