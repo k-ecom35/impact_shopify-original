@@ -269,7 +269,7 @@
         "image_RpJ847": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Blanket-Flaxen07_1.jpg",
+            "image": "shopify://shop_images/Votre_texte_de_paragraphe_8_-Photoroom.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -278,7 +278,7 @@
             "desktop_column_span": 2,
             "desktop_row_span": 2,
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
+            "background": "#f3ebdd",
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "",
