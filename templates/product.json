@@ -399,7 +399,7 @@
         "image_UxTBaE": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Blanket-Flaxen08_1.jpg",
+            "image": "shopify://shop_images/Blanket-Flaxen05_2.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -695,6 +695,67 @@
         "background_gradient": ""
       }
     },
+    "faq_kaWTDj": {
+      "type": "faq",
+      "blocks": {
+        "item_c7tHUb": {
+          "type": "item",
+          "settings": {
+            "title": "Le plaid est-il vraiment chaud ?",
+            "content": "<p>Oui. Le plaid Nid Douillet est conçu pour retenir la chaleur tout en restant respirant. Il est idéal pour les soirée fraîches, sans sensation d'étouffement.</p>"
+          }
+        },
+        "item_p4TxTa": {
+          "type": "item",
+          "settings": {
+            "title": "Peut-on le laver en machine ?",
+            "content": "<p>Oui, Il est lavable en machine a 30°, cycle doux. Il conserve sa douceur lavage après lavage.</p>"
+          }
+        },
+        "item_XCAcjQ": {
+          "type": "item",
+          "settings": {
+            "title": "Quelle taille choisir ?",
+            "content": "<p><strong>Confort </strong>: parfait pour le canapé et un usage quotidien</p><p><strong>Maxi confort</strong> : idéal pour le lit ou pour s'envelopper entièrement</p>"
+          }
+        },
+        "item_hQr96W": {
+          "type": "item",
+          "settings": {
+            "title": "Quels sont les délais de livraison ?",
+            "content": "<p>La commande est expédiée sous 24 a 48h. La livraison est suivie et offerte.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_c7tHUb",
+        "item_p4TxTa",
+        "item_XCAcjQ",
+        "item_hQr96W"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ Nid Douillet",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
     "custom_liquid_NMzfUd": {
       "type": "custom-liquid",
       "disabled": true,
@@ -759,6 +820,7 @@
     "media_grid_g9W6Ph",
     "media_grid_fFUxhB",
     "media_grid_GKEcTY",
+    "faq_kaWTDj",
     "custom_liquid_NMzfUd",
     "slideshow_tfhDnY"
   ]
