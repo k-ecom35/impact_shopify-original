@@ -421,7 +421,7 @@
         "image_m8hdhD": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Votre_texte_de_paragraphe_5_-Photoroom.png",
+            "image": "shopify://shop_images/Votre_texte_de_paragraphe_10_-Photoroom.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -745,7 +745,7 @@
         "button_text": "",
         "button_url": "",
         "text_position": "center",
-        "background": "",
+        "background": "#f3ebdd",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
